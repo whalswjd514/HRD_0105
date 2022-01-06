@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+header{
+	width:100%;
+	height:15%;
+	background:blue;
+	color:white;
+	text-align:center;
+	font-size:2em;
+	line-height:98px;
+}
+nav{
+	width:100%;
+	height:5%;
+	background:#BA55D3;
+}
+nav ul{
+	list-style-type:none;
+	margin:0 20px;
+}
+nav ul li{
+	display:inline-block;
+	padding:0 50px;
+}
+nav a{
+	text-decoration:none;
+	color:white;
+	line-height:40px;
+}
+nav a:hover{
+	font-size:1.8em;
+	color:#C71585;
+}
+section{
+	width:100%;
+	height:75%;
+	background:lightgray;
+}
+section h1{
+	text-align:center;
+	padding:10px 0;
+}
+section h3{
+	padding:10px 0 10px 15px;
+}
+section ol{
+	padding:0 0 0 30px;
+}
+footer{
+	width:100%;
+	height:5%;
+	background:blue;
+	color:white;
+	text-align:center;
+	font-size:0.7em;
+	line-height:40px;
+}
+#tab1{
+	width:40%;
+	height:30%;
+	margin:0 auto;
+	border:1px solid black;
+	border-collapse:collapse;
+	border-width:2px;
+}
+#tab2{
+	width:50%;
+	height:30%;
+	margin:0 auto;
+	border:1px solid black;
+	border-collapse:collapse;
+	border-width:2px;
+}
+#tab3{
+	width:30%;
+	height:30%;
+	margin:0 auto;
+	border:1px solid black;
+	border-collapse:collapse;
+	border-width:2px;
+}
+#tab1 tr,#tab2 tr,#tab3 tr{
+	border-collapse:collapse;
+}
+#tab1 th,#tab2 th,#tab3 th{
+	border-collapse:collapse;
+}
+#in1{
+	width:50%;
+	height:25px;
+}
+#in2{
+	width:50%;
+	height:25px;
+}
+#s1{
+	width:30%;
+	height:25px;
+}
+#td1{
+	text-align:center;
+}
+#btn1{
+	width:18%;
+	height:30%;
+}
+#btn2{
+	width:20%;
+	height:30%;
+}
